@@ -5,8 +5,10 @@ description = "Projeto de gestão de investimentos"
 authors = ["Douglas Panhota <douglaspands@gmail.com>"]
 readme = "README.md"
 packages = [
-    {include = "investiment_core"},
-    {include = "investiment"}
+    {include = "authentication"},
+    {include = "core"},
+    {include = "investiment"},
+    {include = "person"},
 ]
 
 [tool.poetry.dependencies]

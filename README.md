@@ -43,3 +43,9 @@ python manage.py migrate
 python manage.py runserver
 ```
 > Com o `virtualenv` ativo.
+
+### Criar usuario admin
+```shell
+python manage.py createsuperuser
+```
+> Com o `virtualenv` ativo.
