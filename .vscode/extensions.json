@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "tamasfe.even-better-toml",
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "kevinrose.vsc-python-indent"
+    ]
+}

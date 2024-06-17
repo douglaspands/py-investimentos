@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "py-investimentos"
+version = "0.1.0"
+description = "Projeto de gestão de investimentos"
+authors = ["Douglas Panhota <douglaspands@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "investiment_core"},
+    {include = "investiment"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.9"
+mypy = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
